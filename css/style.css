@@ -1,0 +1,163 @@
+/* 头部 圆角类 */
+.br-1{
+    width: 120px;
+    border-radius: 1.5rem;
+}
+.btn-outline-secondary{
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+.ul-left{
+
+    display: flex;
+    justify-content: end;
+}
+.bg{
+   background-color: rgb(0, 0, 0);
+}
+
+
+/* banner */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+    flex-direction: column;
+}
+.bOne_p{
+
+}
+.bTwo_p{
+    font-size: 35px;
+}
+
+/* blog */
+.blog{
+    background-color: rgb(247, 247, 247);
+}
+
+.blog-h5{
+    font-weight: 400;
+}
+.blog-h5:hover{
+    cursor: pointer;
+    color: rgb(173, 173, 173);
+}
+/* bolg中的 输入框部分 */
+.weizhi{
+    right: 24px;
+    top: 30;
+}
+.input-style{
+    border: none;
+    outline: none;
+    transition: box-shadow 0.5s linear;
+}
+.input-style:hover{
+    box-shadow: 0 0 1px 2px #ccc;
+}
+.input-style:focus{
+    box-shadow: 0 0 1px 2px rgb(63, 30, 184);
+}
+
+
+/* 手机那页 */
+.phone{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/projects.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.phone .phone_main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+}
+.phone .text_p{
+    display: inline-block;
+    padding:3px 15px;
+    border: 1.5px solid #fff;
+    letter-spacing: 1.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.btn_fang{
+    border-radius: 0px;
+    background-color: #fff;
+    color: #000;
+}
+.btn_fang:hover{
+    border: 1px solid #fff;
+}
+
+/* email */
+/* .phone_number,.email_number{
+    padding-left: 20px;
+} */
+.email i{
+    padding-right: 20px;
+}
+#email{
+    background-color: #f9f9f9;
+}
+.i_txt{
+    background-color: #fff;
+    border:transparent;
+    outline-color: #000;
+    padding: 10px;
+}
+.i_txt::placeholder{
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+
+.border_fang_two{
+    border-radius: 0px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(250, 250, 250);   
+}
+.border_fang_two:hover,.border_fang_two:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    border: 1px solid rgb(12, 12, 12);
+}
+
+/* 倒数第二个 last */
+.last_span{
+    font-size: 30px;
+}
+.border_fang_three{
+    border-radius: 0px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    width: 80%;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.border_fang_three:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+/* 尾部 */
+#footer{
+    background-color: rgb(5, 5, 5);
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    line-height: 8px;
+}
